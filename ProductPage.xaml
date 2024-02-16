@@ -15,6 +15,33 @@
             <RowDefinition Height="auto"></RowDefinition>
         </Grid.RowDefinitions>
         <!--<TextBlock Text="Сигма" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="160"></TextBlock>-->
+
+        <StackPanel Orientation="Horizontal" Grid.Row="0">
+            <StackPanel Orientation="Horizontal" Grid.Row="0" HorizontalAlignment="Right">
+                <TextBlock Text="Количество:" FontSize="18" Margin="5"></TextBlock>
+                <TextBlock Name="ProdAtTheMoment" Text="" Margin="5" FontSize="18"></TextBlock>
+                <TextBlock Text="из" FontSize="18" Margin="5"></TextBlock>
+                <TextBlock Name="ProdAll" Text="" Margin="5" FontSize="18"></TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Vertical">
+                <!--<TextBlock Text="Кол-во 0 из 0" Name="TBCount" FontSize="15" Margin="5"></TextBlock>-->
+                <TextBlock Text="поиск названию" HorizontalAlignment="Center" FontSize="15"></TextBlock>
+                <TextBox Name="TBSearch" SelectionChanged="TBSearch_SelectionChanged" Width="300" Margin="5"></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Vertical">
+                <RadioButton Content="по возрастанию стоимости" Checked="CostUp_Checked" Name="CostUp" ></RadioButton>
+                <RadioButton Content="по убыванию стоимости" Checked="CostDown_Checked" Name="CostDown"></RadioButton>
+            </StackPanel>
+            <StackPanel Orientation="Vertical">
+                <ComboBox Name="SortCombo" SelectionChanged="SortCombo_SelectionChanged"  Text="Сортировка" Margin="5" FontSize="15" Width="250">
+                    <TextBlock Text="0-9,99%"></TextBlock>
+                    <TextBlock Text="10-14,99%"></TextBlock>
+                    <TextBlock Text="15"></TextBlock>
+                    <TextBlock Text="Все фильтры"></TextBlock>
+                </ComboBox>
+            </StackPanel>
+        </StackPanel>
+
         <ListView Name ="ProductListView" Grid.Row="1">
             <ListView.ItemTemplate>
                 <DataTemplate>
