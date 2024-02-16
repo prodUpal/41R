@@ -23,6 +23,15 @@ D:\3 курс\ИСП-3221\Исмагилов\ismagilov16_17\obj\Debug\ismagilov1
 D:\3 курс\ИСП-3221\Исмагилов\ismagilov16_17\obj\Debug\ismagilov16_17.csproj.CopyComplete
 D:\3 курс\ИСП-3221\Исмагилов\ismagilov16_17\obj\Debug\ismagilov16_17.exe
 D:\3 курс\ИСП-3221\Исмагилов\ismagilov16_17\obj\Debug\ismagilov16_17.pdb
+D:\3 курс\ИСП-3221\Исмагилов\17git\obj\Debug\ismagilov16_17.csproj.AssemblyReference.cache
+D:\3 курс\ИСП-3221\Исмагилов\17git\obj\Debug\ismagilov16_17.csproj.SuggestedBindingRedirects.cache
+D:\3 курс\ИСП-3221\Исмагилов\17git\obj\Debug\AuthPage.g.cs
+D:\3 курс\ИСП-3221\Исмагилов\17git\obj\Debug\MainWindow.g.cs
+D:\3 курс\ИСП-3221\Исмагилов\17git\obj\Debug\ProductPage.g.cs
+D:\3 курс\ИСП-3221\Исмагилов\17git\obj\Debug\App.g.cs
+D:\3 курс\ИСП-3221\Исмагилов\17git\obj\Debug\ismagilov16_17_Content.g.cs
+D:\3 курс\ИСП-3221\Исмагилов\17git\obj\Debug\ismagilov16_17_MarkupCompile.cache
+D:\3 курс\ИСП-3221\Исмагилов\17git\obj\Debug\ismagilov16_17_MarkupCompile.lref
 D:\3 курс\ИСП-3221\Исмагилов\17git\bin\Debug\ismagilov16_17.exe.config
 D:\3 курс\ИСП-3221\Исмагилов\17git\bin\Debug\ismagilov16_17.exe
 D:\3 курс\ИСП-3221\Исмагилов\17git\bin\Debug\ismagilov16_17.pdb
@@ -31,14 +40,7 @@ D:\3 курс\ИСП-3221\Исмагилов\17git\bin\Debug\EntityFramework.Sql
 D:\3 курс\ИСП-3221\Исмагилов\17git\bin\Debug\EntityFramework.xml
 D:\3 курс\ИСП-3221\Исмагилов\17git\bin\Debug\EntityFramework.SqlServer.xml
 D:\3 курс\ИСП-3221\Исмагилов\17git\bin\Debug\ru\EntityFramework.resources.dll
-D:\3 курс\ИСП-3221\Исмагилов\17git\obj\Debug\ismagilov16_17.csproj.AssemblyReference.cache
-D:\3 курс\ИСП-3221\Исмагилов\17git\obj\Debug\ismagilov16_17.csproj.SuggestedBindingRedirects.cache
-D:\3 курс\ИСП-3221\Исмагилов\17git\obj\Debug\MainWindow.g.cs
-D:\3 курс\ИСП-3221\Исмагилов\17git\obj\Debug\ProductPage.g.cs
-D:\3 курс\ИСП-3221\Исмагилов\17git\obj\Debug\App.g.cs
-D:\3 курс\ИСП-3221\Исмагилов\17git\obj\Debug\ismagilov16_17_Content.g.cs
-D:\3 курс\ИСП-3221\Исмагилов\17git\obj\Debug\ismagilov16_17_MarkupCompile.cache
-D:\3 курс\ИСП-3221\Исмагилов\17git\obj\Debug\ismagilov16_17_MarkupCompile.lref
+D:\3 курс\ИСП-3221\Исмагилов\17git\obj\Debug\AuthPage.baml
 D:\3 курс\ИСП-3221\Исмагилов\17git\obj\Debug\MainWindow.baml
 D:\3 курс\ИСП-3221\Исмагилов\17git\obj\Debug\ProductPage.baml
 D:\3 курс\ИСП-3221\Исмагилов\17git\obj\Debug\ismagilov16_17.g.resources
@@ -48,3 +50,4 @@ D:\3 курс\ИСП-3221\Исмагилов\17git\obj\Debug\ismagilov16_17.cspr
 D:\3 курс\ИСП-3221\Исмагилов\17git\obj\Debug\ismagilov16_17.csproj.CopyComplete
 D:\3 курс\ИСП-3221\Исмагилов\17git\obj\Debug\ismagilov16_17.exe
 D:\3 курс\ИСП-3221\Исмагилов\17git\obj\Debug\ismagilov16_17.pdb
+D:\3 курс\ИСП-3221\Исмагилов\17git\obj\Debug\App.baml

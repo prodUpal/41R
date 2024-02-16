@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:ismagilov16_17"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="ProductPage" FontFamily="Comic Sans MS">
+      Title="41 размер Исмагилова" FontFamily="Comic Sans MS">
 
     <Grid>
         <Grid.RowDefinitions>
@@ -17,12 +17,26 @@
         <!--<TextBlock Text="Сигма" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="160"></TextBlock>-->
 
         <StackPanel Orientation="Horizontal" Grid.Row="0">
-            <StackPanel Orientation="Horizontal" Grid.Row="0" HorizontalAlignment="Right">
-                <TextBlock Text="Количество:" FontSize="18" Margin="5"></TextBlock>
-                <TextBlock Name="ProdAtTheMoment" Text="" Margin="5" FontSize="18"></TextBlock>
-                <TextBlock Text="из" FontSize="18" Margin="5"></TextBlock>
-                <TextBlock Name="ProdAll" Text="" Margin="5" FontSize="18"></TextBlock>
+            <StackPanel Orientation="Vertical">
+                <StackPanel Orientation="Vertical" Grid.Row="0">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="Вы авторизованы как" FontSize="18" Margin="5"></TextBlock>
+                        <TextBlock Name="Name" Text="" Margin="5" FontSize="18"></TextBlock>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Роль: " FontSize="18" Margin="5"></TextBlock>
+                     <TextBlock Name="Role" Text="" Margin="5" FontSize="18"></TextBlock>
+                 </StackPanel>
+                </StackPanel>
+            
+                <StackPanel Orientation="Horizontal" Grid.Row="0" HorizontalAlignment="Left">
+                    <TextBlock Text="Количество:" FontSize="18" Margin="5"></TextBlock>
+                    <TextBlock Name="ProdAtTheMoment" Text="" Margin="5" FontSize="18"></TextBlock>
+                    <TextBlock Text="из" FontSize="18" Margin="5"></TextBlock>
+                    <TextBlock Name="ProdAll" Text="" Margin="5" FontSize="18"></TextBlock>
+                </StackPanel>
             </StackPanel>
+
             <StackPanel Orientation="Vertical">
                 <!--<TextBlock Text="Кол-во 0 из 0" Name="TBCount" FontSize="15" Margin="5"></TextBlock>-->
                 <TextBlock Text="поиск названию" HorizontalAlignment="Center" FontSize="15"></TextBlock>

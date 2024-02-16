@@ -20,14 +20,33 @@ namespace ismagilov16_17
     /// </summary>
     public partial class ProductPage : Page
     {
-        public ProductPage()
+        public ProductPage(User user)
         {
             InitializeComponent();
 
             var currentProduct = Ismagilov41Entities.GetContext().Product.ToList();
 
+            if(user == null) {
+                Name.Text = "гость";
+                Role.Text = "гость";
+            }
+            else {
+                Name.Text = user.UserName + user.UserSurname + user.UserPatronymic;
+                switch (user.UserRole)
+                {
+                    case 2:
+                        Role.Text = "Клиент"; break;
+                    case 3:
+                        Role.Text = "Менедежер"; break;
+                    case 1:
+                        Role.Text = "Администратор"; break;
+                }
+            }
+
+
             ProdAll.Text = Convert.ToString(currentProduct.Count);
             ProdAtTheMoment.Text = Convert.ToString(currentProduct.Count);
+
 
             ProductListView.ItemsSource = currentProduct;
         }

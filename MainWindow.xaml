@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ismagilov16_17"
         mc:Ignorable="d"
-        Title="41 размер Исмагилова" Height="450" Width="800" MinWidth="800" MinHeight="400" Icon="Resources/icon.ico">
+        Title="41 размер Исмагилова" Height="450" Width="800" MinWidth="450" MinHeight="800" Icon="Resources/icon.ico" FontFamily="Comic Sans MS">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="75"></RowDefinition>
